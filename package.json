@@ -1,0 +1,27 @@
+{
+  "name": "kata-invoice-timeline-graphql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "micro index.js -p 3001"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sbstnbr/kata-invoice-timeline-graphql.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sbstnbr/kata-invoice-timeline-graphql/issues"
+  },
+  "homepage": "https://github.com/sbstnbr/kata-invoice-timeline-graphql#readme",
+  "dependencies": {
+    "express-graphql": "^0.6.12",
+    "graphql": "^0.13.2",
+    "micro": "^9.1.4",
+    "micro-cors": "^0.1.0"
+  }
+}
